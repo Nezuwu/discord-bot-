@@ -97,6 +97,7 @@ const ROLEPLAY_COMMANDS = {
   yeet: { api: "yeet", verb: "yeets", needsTarget: true, color: 0xf97316, statKey: "yeetsSent" },
   nom: { api: "nom", verb: "noms on", needsTarget: true, color: 0xfb923c, statKey: "nomsSent" },
   stare: { api: "stare", verb: "stares at", needsTarget: false, color: 0x94a3b8, statKey: "staresSent" },
+  spank: { api: "spank", verb: "spanks", needsTarget: true, color: 0xf472b6, statKey: "spanksSent" },
   shrug: { api: "shrug", verb: "shrugs at", needsTarget: false, color: 0xcbd5e1, statKey: "shrugsSent" },
 };
 
@@ -105,7 +106,7 @@ const HELP_CATEGORIES = [
     key: "roleplay",
     title: "Roleplay Commands",
     emoji: "💕",
-    commands: ["hug", "kiss", "cuddle", "pat", "poke", "slap", "bite", "tickle", "bonk", "highfive", "handshake", "handhold", "feed", "punch", "shoot", "wave", "wink", "smile", "blush", "cry", "dance", "happy", "laugh", "pout", "smug", "baka", "facepalm", "yeet", "nom", "stare", "shrug", "marry", "divorce"],
+    commands: ["hug", "kiss", "cuddle", "pat", "poke", "slap", "bite", "tickle", "bonk", "highfive", "handshake", "handhold", "feed", "punch", "shoot", "wave", "wink", "smile", "blush", "cry", "dance", "happy", "laugh", "pout", "smug", "baka", "facepalm", "yeet", "nom", "stare", "shrug", "marry", "divorce", "spank"],
   },
   {
     key: "game",
